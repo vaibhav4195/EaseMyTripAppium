@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-04-29T15:06:04 IST" name="Suite" finished-at="2022-04-29T15:09:11 IST" duration-ms="186791">
+    <groups>
+    </groups>
+    <test started-at="2022-04-29T15:06:04 IST" name="Test" finished-at="2022-04-29T15:09:11 IST" duration-ms="186791">
+      <class name="tests.BookTicketWithDataProvider">
+        <test-method is-config="true" signature="startReport()[pri:0, instance:tests.BookTicketWithDataProvider@449a4f23]" started-at="2022-04-29T15:05:46 IST" name="startReport" finished-at="2022-04-29T15:06:04 IST" duration-ms="18232" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method is-config="true" signature="startServerAndApp()[pri:0, instance:tests.BookTicketWithDataProvider@449a4f23]" started-at="2022-04-29T15:06:04 IST" name="startServerAndApp" finished-at="2022-04-29T15:06:27 IST" duration-ms="22428" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startServerAndApp -->
+        <test-method signature="homePage(int)[pri:0, instance:tests.BookTicketWithDataProvider@449a4f23]" started-at="2022-04-29T15:06:30 IST" name="homePage" data-provider="data-provider" finished-at="2022-04-29T15:07:50 IST" duration-ms="79721" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePage -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:tests.BookTicketWithDataProvider@449a4f23]" started-at="2022-04-29T15:07:50 IST" name="afterMethod" finished-at="2022-04-29T15:07:50 IST" duration-ms="5" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=homePage status=SUCCESS method=BookTicketWithDataProvider.homePage(int)[pri:0, instance:tests.BookTicketWithDataProvider@449a4f23] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="homePage(int)[pri:0, instance:tests.BookTicketWithDataProvider@449a4f23]" started-at="2022-04-29T15:07:50 IST" name="homePage" data-provider="data-provider" finished-at="2022-04-29T15:09:10 IST" duration-ms="80239" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePage -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:tests.BookTicketWithDataProvider@449a4f23]" started-at="2022-04-29T15:09:10 IST" name="afterMethod" finished-at="2022-04-29T15:09:10 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=homePage status=SUCCESS method=BookTicketWithDataProvider.homePage(int)[pri:0, instance:tests.BookTicketWithDataProvider@449a4f23] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:tests.BookTicketWithDataProvider@449a4f23]" started-at="2022-04-29T15:09:10 IST" name="afterTest" finished-at="2022-04-29T15:09:11 IST" duration-ms="1404" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:tests.BookTicketWithDataProvider@449a4f23]" started-at="2022-04-29T15:09:11 IST" name="afterSuite" finished-at="2022-04-29T15:09:12 IST" duration-ms="457" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- tests.BookTicketWithDataProvider -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
